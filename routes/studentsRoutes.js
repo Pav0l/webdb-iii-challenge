@@ -42,7 +42,6 @@ routes.get('/:id', async (req, res) => {
   }
 });
 
-
 // [POST] create new student - returns an ARRAY with ID of new student
 routes.post('/', async (req, res) => {
   const studentName = req.body.name;
